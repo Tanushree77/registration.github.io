@@ -1,0 +1,91 @@
+body{
+    background-color: #00bcd4;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+   
+    margin: 8px 0px;
+    padding: 25px 25px;
+    align-items: center;
+    height: 60vh;
+    width: 60vw;
+    flex: 0.35;
+    align-content: space-between;
+    text-align: justify;
+    background-color: white;
+
+}
+
+
+.container > label{
+    margin-right: 9px;
+    display: inline-block;
+    width: 21%;
+    min-width: 30px;
+}
+
+.selection{
+    display: flex;
+    
+    
+}
+.selection > label{
+    margin-right: 9px;
+    display: inline-block;
+    width: 21%;
+    min-width: 30px;
+}
+
+.registerbtn{
+    box-shadow: 0px 10px 14px -7px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.registerbtn:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+	font-size: 18px;
+}
+.registerbtn:active {
+	position:relative;
+	top:1px;
+}
+.clearbtn {
+	box-shadow: 0px 10px 14px -7px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.clearbtn:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+	font-size: 18px;
+}
+.clearbtn:active {
+	position:relative;
+	top:1px;
+}
+
+  

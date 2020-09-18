@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: aquamarine;
+}
+
+.container-1{
+    margin: 8px 0px;
+    padding: 25px 25px;
+    align-items: center;
+    height: 40vh;
+    width: 40vw;
+    flex: 0.35;
+    align-content: space-between;
+    text-align: justify;
+    background-color: white;
+
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+.selection{
+    display: flex;
+    
+    
+}
+.selection > label{
+    margin-right: 9px;
+    display: inline-block;
+    width: 21%;
+    min-width: 30px;
+}
+.loginbtn{
+    box-shadow: 0px 10px 14px -7px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.loginbtn:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+	font-size: 10px;
+}
+.loginbtn:active {
+	position:relative;
+	top:1px;
+}

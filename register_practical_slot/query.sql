@@ -1,0 +1,1 @@
+SELECT t.id, start_time, end_time, week_day,8-COUNT(s.id) AS remaining FROM time_slot t LEFT  JOIN student s ON t.id= s.practical_slot GROUP BY s.practical_slot
